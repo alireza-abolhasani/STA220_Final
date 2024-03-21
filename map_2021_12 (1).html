@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_08cc4acc52c46c0781467a62842651b0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_08cc4acc52c46c0781467a62842651b0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_08cc4acc52c46c0781467a62842651b0 = L.map(
+                "map_08cc4acc52c46c0781467a62842651b0",
+                {
+                    center: [38.57029581818182, -121.63780259090908],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_001823f34e6f92a0a5615a57d10560ae = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var marker_ffdb9aa7c12db3a1b8a7c86e2e7879ea = L.marker(
+                [38.557274, -121.7037],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_ad817e4aac840690310addbf0a8808c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ffdb9aa7c12db3a1b8a7c86e2e7879ea.setIcon(icon_ad817e4aac840690310addbf0a8808c6);
+        
+    
+        var popup_126198a470dce0b6d09e762f6981cb56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd61ff427efa977e91559b0acaea617d = $(`<div id="html_fd61ff427efa977e91559b0acaea617d" style="width: 100.0%; height: 100.0%;">3.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_126198a470dce0b6d09e762f6981cb56.setContent(html_fd61ff427efa977e91559b0acaea617d);
+            
+        
+
+        marker_ffdb9aa7c12db3a1b8a7c86e2e7879ea.bindPopup(popup_126198a470dce0b6d09e762f6981cb56)
+        ;
+
+        
+    
+    
+            var marker_12890b1b1752d0d6d5bbec985920832f = L.marker(
+                [38.539772, -121.7188],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_38c3d145c68a234ac66b5ae0ceef6675 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_12890b1b1752d0d6d5bbec985920832f.setIcon(icon_38c3d145c68a234ac66b5ae0ceef6675);
+        
+    
+        var popup_ae8bdc616a25f267962754509af42807 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aee396fd7fe8f41d023861f9338098f2 = $(`<div id="html_aee396fd7fe8f41d023861f9338098f2" style="width: 100.0%; height: 100.0%;">4.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_ae8bdc616a25f267962754509af42807.setContent(html_aee396fd7fe8f41d023861f9338098f2);
+            
+        
+
+        marker_12890b1b1752d0d6d5bbec985920832f.bindPopup(popup_ae8bdc616a25f267962754509af42807)
+        ;
+
+        
+    
+    
+            var marker_515e62e74bb392b8ffc57afbfa2287fa = L.marker(
+                [38.561066, -121.71349],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_37e2266f42190c16b282e709d5e30668 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_515e62e74bb392b8ffc57afbfa2287fa.setIcon(icon_37e2266f42190c16b282e709d5e30668);
+        
+    
+        var popup_0592b3768152678c64a0be860a1d9cec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92a7d9ed9e62bd9467cdd97b998c5b0b = $(`<div id="html_92a7d9ed9e62bd9467cdd97b998c5b0b" style="width: 100.0%; height: 100.0%;">3.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_0592b3768152678c64a0be860a1d9cec.setContent(html_92a7d9ed9e62bd9467cdd97b998c5b0b);
+            
+        
+
+        marker_515e62e74bb392b8ffc57afbfa2287fa.bindPopup(popup_0592b3768152678c64a0be860a1d9cec)
+        ;
+
+        
+    
+    
+            var marker_7288336abc64ebb4b1f00433e8f8bfa9 = L.marker(
+                [38.554085, -121.72545],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_dca301218b17950770347adb881566b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7288336abc64ebb4b1f00433e8f8bfa9.setIcon(icon_dca301218b17950770347adb881566b0);
+        
+    
+        var popup_def0d5e660b1780d866d7362c4c0b68e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd504288ab175be9d7db0f53bb3bfeaf = $(`<div id="html_fd504288ab175be9d7db0f53bb3bfeaf" style="width: 100.0%; height: 100.0%;">3.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_def0d5e660b1780d866d7362c4c0b68e.setContent(html_fd504288ab175be9d7db0f53bb3bfeaf);
+            
+        
+
+        marker_7288336abc64ebb4b1f00433e8f8bfa9.bindPopup(popup_def0d5e660b1780d866d7362c4c0b68e)
+        ;
+
+        
+    
+    
+            var marker_0ffb5ad4bfa6f7fc1e11f92867633fff = L.marker(
+                [38.5473, -121.71289],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_6dd7b70164d84bf86867c25f2a7ea3a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0ffb5ad4bfa6f7fc1e11f92867633fff.setIcon(icon_6dd7b70164d84bf86867c25f2a7ea3a2);
+        
+    
+        var popup_137ccf4b208696d2d601453e7087096a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3db4617a6d39bff664800ab42cf615ea = $(`<div id="html_3db4617a6d39bff664800ab42cf615ea" style="width: 100.0%; height: 100.0%;">3.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_137ccf4b208696d2d601453e7087096a.setContent(html_3db4617a6d39bff664800ab42cf615ea);
+            
+        
+
+        marker_0ffb5ad4bfa6f7fc1e11f92867633fff.bindPopup(popup_137ccf4b208696d2d601453e7087096a)
+        ;
+
+        
+    
+    
+            var marker_220f4be9fcb12c67b8fd51b755b76dba = L.marker(
+                [38.558598, -121.70376],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_63f3febed323aa6511a483fbb745d015 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_220f4be9fcb12c67b8fd51b755b76dba.setIcon(icon_63f3febed323aa6511a483fbb745d015);
+        
+    
+        var popup_1b520fd0d3bf940ec3171d020f7ff1c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2e943a19b7577907c0f5e39a507f5cd = $(`<div id="html_f2e943a19b7577907c0f5e39a507f5cd" style="width: 100.0%; height: 100.0%;">3.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_1b520fd0d3bf940ec3171d020f7ff1c6.setContent(html_f2e943a19b7577907c0f5e39a507f5cd);
+            
+        
+
+        marker_220f4be9fcb12c67b8fd51b755b76dba.bindPopup(popup_1b520fd0d3bf940ec3171d020f7ff1c6)
+        ;
+
+        
+    
+    
+            var marker_58b3d05d28a57455721be909f96db0ea = L.marker(
+                [38.554832, -121.70535],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_0d24d1b8a0dd31eecf04953736f6b41d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_58b3d05d28a57455721be909f96db0ea.setIcon(icon_0d24d1b8a0dd31eecf04953736f6b41d);
+        
+    
+        var popup_bb1e3d0a937867a09f246a52c00d1d57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d513e4515a110b0a51572d4c3c3d9924 = $(`<div id="html_d513e4515a110b0a51572d4c3c3d9924" style="width: 100.0%; height: 100.0%;">3.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_bb1e3d0a937867a09f246a52c00d1d57.setContent(html_d513e4515a110b0a51572d4c3c3d9924);
+            
+        
+
+        marker_58b3d05d28a57455721be909f96db0ea.bindPopup(popup_bb1e3d0a937867a09f246a52c00d1d57)
+        ;
+
+        
+    
+    
+            var marker_78bc5d138c02c5ba94db505fe52bef1a = L.marker(
+                [38.5457, -121.713036],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_c77da1e9b3774906cd28f1eafcbb0278 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_78bc5d138c02c5ba94db505fe52bef1a.setIcon(icon_c77da1e9b3774906cd28f1eafcbb0278);
+        
+    
+        var popup_2dd5ae2177470e7be1da2a06c32249dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4d068e62d41c37c0ebf33d96b9b46b8 = $(`<div id="html_c4d068e62d41c37c0ebf33d96b9b46b8" style="width: 100.0%; height: 100.0%;">3.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_2dd5ae2177470e7be1da2a06c32249dc.setContent(html_c4d068e62d41c37c0ebf33d96b9b46b8);
+            
+        
+
+        marker_78bc5d138c02c5ba94db505fe52bef1a.bindPopup(popup_2dd5ae2177470e7be1da2a06c32249dc)
+        ;
+
+        
+    
+    
+            var marker_43c62bcb5833ffe55e7a9d15a2477e39 = L.marker(
+                [38.54273, -121.7218],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_f926433988fe6b31968581c0e1b05430 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_43c62bcb5833ffe55e7a9d15a2477e39.setIcon(icon_f926433988fe6b31968581c0e1b05430);
+        
+    
+        var popup_02403b8074db034186b6d28339cf7a7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_957f940c9f41bad5574bf459520b9356 = $(`<div id="html_957f940c9f41bad5574bf459520b9356" style="width: 100.0%; height: 100.0%;">4.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_02403b8074db034186b6d28339cf7a7f.setContent(html_957f940c9f41bad5574bf459520b9356);
+            
+        
+
+        marker_43c62bcb5833ffe55e7a9d15a2477e39.bindPopup(popup_02403b8074db034186b6d28339cf7a7f)
+        ;
+
+        
+    
+    
+            var marker_c9213d415ec146b676bf65620c3692af = L.marker(
+                [38.5623, -121.72678],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_22aaae93df2b0e36a0a2a840d793f784 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c9213d415ec146b676bf65620c3692af.setIcon(icon_22aaae93df2b0e36a0a2a840d793f784);
+        
+    
+        var popup_f5d0155c10b90279eeeba97e0ff9edfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_292755e607d8e7bba8206f7b4f56c90a = $(`<div id="html_292755e607d8e7bba8206f7b4f56c90a" style="width: 100.0%; height: 100.0%;">4.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_f5d0155c10b90279eeeba97e0ff9edfa.setContent(html_292755e607d8e7bba8206f7b4f56c90a);
+            
+        
+
+        marker_c9213d415ec146b676bf65620c3692af.bindPopup(popup_f5d0155c10b90279eeeba97e0ff9edfa)
+        ;
+
+        
+    
+    
+            var marker_f449c80d668fcbfdab56ef9ffd9f70a2 = L.marker(
+                [38.567554, -121.729225],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_136a1a0879d19ee860d84caa9bd9fe10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f449c80d668fcbfdab56ef9ffd9f70a2.setIcon(icon_136a1a0879d19ee860d84caa9bd9fe10);
+        
+    
+        var popup_2b3cd8da906ffed0068c2a7d996c4d64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c4803bb83378d255289758b7e261a07 = $(`<div id="html_3c4803bb83378d255289758b7e261a07" style="width: 100.0%; height: 100.0%;">2.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_2b3cd8da906ffed0068c2a7d996c4d64.setContent(html_3c4803bb83378d255289758b7e261a07);
+            
+        
+
+        marker_f449c80d668fcbfdab56ef9ffd9f70a2.bindPopup(popup_2b3cd8da906ffed0068c2a7d996c4d64)
+        ;
+
+        
+    
+    
+            var marker_6e0e7ab4466515f843da7b473d3b3e85 = L.marker(
+                [38.559635, -121.70977],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_f27338124f8613b1eb439ea58c6549dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6e0e7ab4466515f843da7b473d3b3e85.setIcon(icon_f27338124f8613b1eb439ea58c6549dc);
+        
+    
+        var popup_b7871aa4e27c7b76a9b952fc6a5054a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_406a6393565d0c064a8e2604e4fc10cb = $(`<div id="html_406a6393565d0c064a8e2604e4fc10cb" style="width: 100.0%; height: 100.0%;">4.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_b7871aa4e27c7b76a9b952fc6a5054a5.setContent(html_406a6393565d0c064a8e2604e4fc10cb);
+            
+        
+
+        marker_6e0e7ab4466515f843da7b473d3b3e85.bindPopup(popup_b7871aa4e27c7b76a9b952fc6a5054a5)
+        ;
+
+        
+    
+    
+            var marker_6be2a0ffac39a212e0e5db6ba3c5e295 = L.marker(
+                [38.542713, -121.71261],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_1f7e56b7b04406f686a848222bfc67e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6be2a0ffac39a212e0e5db6ba3c5e295.setIcon(icon_1f7e56b7b04406f686a848222bfc67e5);
+        
+    
+        var popup_df04b7693ed68b9fa4b23f7e4ce5684f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48cbaf944b6015bde62c46cf859680a2 = $(`<div id="html_48cbaf944b6015bde62c46cf859680a2" style="width: 100.0%; height: 100.0%;">4.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_df04b7693ed68b9fa4b23f7e4ce5684f.setContent(html_48cbaf944b6015bde62c46cf859680a2);
+            
+        
+
+        marker_6be2a0ffac39a212e0e5db6ba3c5e295.bindPopup(popup_df04b7693ed68b9fa4b23f7e4ce5684f)
+        ;
+
+        
+    
+    
+            var marker_3f0ca55b525c98341e78909b1108e598 = L.marker(
+                [38.598835, -121.53556],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_391e9bc177d28b9435e19e0c6b25f8c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3f0ca55b525c98341e78909b1108e598.setIcon(icon_391e9bc177d28b9435e19e0c6b25f8c4);
+        
+    
+        var popup_362c2026ea5e76c291c1f2d56761d65d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a7a8e4e699ba0341b9d312a063cf504 = $(`<div id="html_8a7a8e4e699ba0341b9d312a063cf504" style="width: 100.0%; height: 100.0%;">4.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_362c2026ea5e76c291c1f2d56761d65d.setContent(html_8a7a8e4e699ba0341b9d312a063cf504);
+            
+        
+
+        marker_3f0ca55b525c98341e78909b1108e598.bindPopup(popup_362c2026ea5e76c291c1f2d56761d65d)
+        ;
+
+        
+    
+    
+            var marker_b139f1ec7629a778f282e5d5625e6832 = L.marker(
+                [38.59128, -121.53506],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_547d2a4e36c621effb258b01650e70bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b139f1ec7629a778f282e5d5625e6832.setIcon(icon_547d2a4e36c621effb258b01650e70bb);
+        
+    
+        var popup_674e3779afe8117889637a14127f1807 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0854afc6d0aa6a2df878fd3a4b26735c = $(`<div id="html_0854afc6d0aa6a2df878fd3a4b26735c" style="width: 100.0%; height: 100.0%;">6.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_674e3779afe8117889637a14127f1807.setContent(html_0854afc6d0aa6a2df878fd3a4b26735c);
+            
+        
+
+        marker_b139f1ec7629a778f282e5d5625e6832.bindPopup(popup_674e3779afe8117889637a14127f1807)
+        ;
+
+        
+    
+    
+            var marker_8bd65f9c17bcbb095b670f8d142d7ac0 = L.marker(
+                [38.601845, -121.52497],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_96c02287b7816c3fa8432c7e2e95cb6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8bd65f9c17bcbb095b670f8d142d7ac0.setIcon(icon_96c02287b7816c3fa8432c7e2e95cb6f);
+        
+    
+        var popup_2ee1e1c8d1d69334d9e084cf1845cf3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d8e60b0d7c9368d787e3ec1cb5a2e09 = $(`<div id="html_0d8e60b0d7c9368d787e3ec1cb5a2e09" style="width: 100.0%; height: 100.0%;">nan bedrooms, sold in 12/2021</div>`)[0];
+                popup_2ee1e1c8d1d69334d9e084cf1845cf3a.setContent(html_0d8e60b0d7c9368d787e3ec1cb5a2e09);
+            
+        
+
+        marker_8bd65f9c17bcbb095b670f8d142d7ac0.bindPopup(popup_2ee1e1c8d1d69334d9e084cf1845cf3a)
+        ;
+
+        
+    
+    
+            var marker_64f0f54312dd4f230588dbb130d554b4 = L.marker(
+                [38.59758, -121.53934],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_6530667d0f73c6a91813d919a2a41308 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_64f0f54312dd4f230588dbb130d554b4.setIcon(icon_6530667d0f73c6a91813d919a2a41308);
+        
+    
+        var popup_59487d6abf9f1992678e9a85062e0f5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45b6bc3a570ce3d5ba0054e4fcad1ca6 = $(`<div id="html_45b6bc3a570ce3d5ba0054e4fcad1ca6" style="width: 100.0%; height: 100.0%;">3.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_59487d6abf9f1992678e9a85062e0f5f.setContent(html_45b6bc3a570ce3d5ba0054e4fcad1ca6);
+            
+        
+
+        marker_64f0f54312dd4f230588dbb130d554b4.bindPopup(popup_59487d6abf9f1992678e9a85062e0f5f)
+        ;
+
+        
+    
+    
+            var marker_c13736f1716c1619be205884a7b50cf0 = L.marker(
+                [38.590874, -121.51874],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_af7fd2fc899a736331c9ce76960a700d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c13736f1716c1619be205884a7b50cf0.setIcon(icon_af7fd2fc899a736331c9ce76960a700d);
+        
+    
+        var popup_d0e78299a06bfb55cb8e8146bbb1e618 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b3ac49f05a07bef7558fff26d574251 = $(`<div id="html_7b3ac49f05a07bef7558fff26d574251" style="width: 100.0%; height: 100.0%;">2.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_d0e78299a06bfb55cb8e8146bbb1e618.setContent(html_7b3ac49f05a07bef7558fff26d574251);
+            
+        
+
+        marker_c13736f1716c1619be205884a7b50cf0.bindPopup(popup_d0e78299a06bfb55cb8e8146bbb1e618)
+        ;
+
+        
+    
+    
+            var marker_29145e4560fea9ab48769a834b53d9c1 = L.marker(
+                [38.594345, -121.514206],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_aec9b16c34e2794db79e5faa04bac414 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_29145e4560fea9ab48769a834b53d9c1.setIcon(icon_aec9b16c34e2794db79e5faa04bac414);
+        
+    
+        var popup_be9ff45179800a2af2c22fb4aa6192a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec59c27915d74991f8e710879bb4d74f = $(`<div id="html_ec59c27915d74991f8e710879bb4d74f" style="width: 100.0%; height: 100.0%;">5.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_be9ff45179800a2af2c22fb4aa6192a5.setContent(html_ec59c27915d74991f8e710879bb4d74f);
+            
+        
+
+        marker_29145e4560fea9ab48769a834b53d9c1.bindPopup(popup_be9ff45179800a2af2c22fb4aa6192a5)
+        ;
+
+        
+    
+    
+            var marker_b7255b0d6a6d81c61abee6292003952a = L.marker(
+                [38.592777, -121.52953],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_b26b72199cdf26b5e641816ea5556a2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b7255b0d6a6d81c61abee6292003952a.setIcon(icon_b26b72199cdf26b5e641816ea5556a2b);
+        
+    
+        var popup_599156048b02a61b25bbae8b4a61365c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e6a180ae0be47beb07b9768ba514854 = $(`<div id="html_7e6a180ae0be47beb07b9768ba514854" style="width: 100.0%; height: 100.0%;">3.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_599156048b02a61b25bbae8b4a61365c.setContent(html_7e6a180ae0be47beb07b9768ba514854);
+            
+        
+
+        marker_b7255b0d6a6d81c61abee6292003952a.bindPopup(popup_599156048b02a61b25bbae8b4a61365c)
+        ;
+
+        
+    
+    
+            var marker_261e5c9f72636a8e66e386dcf101a772 = L.marker(
+                [38.591766, -121.515434],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_0d10d85365d301647e1aece6fe2be9f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_261e5c9f72636a8e66e386dcf101a772.setIcon(icon_0d10d85365d301647e1aece6fe2be9f1);
+        
+    
+        var popup_98863b5a26cb61adff668d0f9b874ef3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9092fbbdb0f7944e8e49b307e3ce1953 = $(`<div id="html_9092fbbdb0f7944e8e49b307e3ce1953" style="width: 100.0%; height: 100.0%;">3.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_98863b5a26cb61adff668d0f9b874ef3.setContent(html_9092fbbdb0f7944e8e49b307e3ce1953);
+            
+        
+
+        marker_261e5c9f72636a8e66e386dcf101a772.bindPopup(popup_98863b5a26cb61adff668d0f9b874ef3)
+        ;
+
+        
+    
+    
+            var marker_6685e6b24e41ed2a2df9eb01d95890ba = L.marker(
+                [38.593647, -121.522156],
+                {}
+            ).addTo(map_08cc4acc52c46c0781467a62842651b0);
+        
+    
+            var icon_0cea7ba32c39cf341cc7fdc8d038620a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6685e6b24e41ed2a2df9eb01d95890ba.setIcon(icon_0cea7ba32c39cf341cc7fdc8d038620a);
+        
+    
+        var popup_4a89171c02d1cb93fc18f02d07f1e830 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b5f66945780e29f133b1a30beea7161 = $(`<div id="html_1b5f66945780e29f133b1a30beea7161" style="width: 100.0%; height: 100.0%;">3.0 bedrooms, sold in 12/2021</div>`)[0];
+                popup_4a89171c02d1cb93fc18f02d07f1e830.setContent(html_1b5f66945780e29f133b1a30beea7161);
+            
+        
+
+        marker_6685e6b24e41ed2a2df9eb01d95890ba.bindPopup(popup_4a89171c02d1cb93fc18f02d07f1e830)
+        ;
+
+        
+    
+</script>
+</html>
